@@ -7,7 +7,7 @@ To learn a similarity measure, in the range [0, 1.0] of two arbitrary textual in
 - Glove 300 Dim Embeddings
 - Use 2 multi-layer LSTMs (1 for each of the inputs)
 - The LSTMs outputs are concatenated, hence the name Siamese, into a vector `v` as follows: 
-      ```v = tf.concat([h1, h2, tf.squared_difference(h1, h2), tf.multiply(h1, h2)], axis=-1)```
+```v = tf.concat([h1, h2, tf.squared_difference(h1, h2), tf.multiply(h1, h2)], axis=-1)```
 - We get the raw scores ```Wv + b``` and apply softmax<sup>[1](#note1)</sup> to it
 - Softmax output (i.e. a probability) is then used a similarity measure
 - Cross-entropy error is used as loss
@@ -25,5 +25,5 @@ To learn a similarity measure, in the range [0, 1.0] of two arbitrary textual in
 - https://github.com/dhwajraj/deep-siamese-text-similarity 
 
 #### Footnotes
-<a name="note1">1</a>: Sigmoid could be used as well.
-<a name="note2">2</a>: Quora Questions Pairs Dataset
+<a name="note1">1.</a> Sigmoid could be used as well.
+<a name="note2">2.</a> Quora Questions Pairs Dataset

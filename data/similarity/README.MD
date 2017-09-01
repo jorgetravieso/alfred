@@ -5,4 +5,4 @@
 
 ## Dataset
 1. train1.tsv: MSR + SICK
-2. train2.tsv: Custom
+2. test1.tsv: Test set for train1.tsv
