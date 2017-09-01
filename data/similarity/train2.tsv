@@ -1,0 +1,104 @@
+#######################################################################################################################
+# General
+#######################################################################################################################
+joe is a man	joe killed mary	n
+the panda is not eating bamboo	a man is playing a trumpet	n
+it's freezing outside	it's very cold	y
+it's cold	it's very cold	y
+it's freezing	it's cold	y
+it's hot outside	it's cold outside	n
+it's hot outside	it's freezing outside	n
+it's very hot	it's very hot outside	y
+it's very hot	it's very warm outside	y
+it's very hot	it's very hot outsisde	y
+it's very hot	it's very warm outsisde	y
+#######################################################################################################################
+# Billing
+#######################################################################################################################
+I am jorge and I want to pay an invoice	I want to pay my invoice	y
+I want to pay it	wanna make a payment	t
+I do not want to pay it	I want to pay it	n
+I am trying to know my payment options	I am trying to know my options	y
+I am trying to know my payment options	I want to know how much do I have to pay	y
+I want to know what my paymt opts are	I am trying to know my payment options	y
+Wanna know my payment options	I want to know my payment options	y
+I am trying to know my payment options	I want to know what my paymt opts are	y
+i'd like know my payment options	i want to know my payment options	y
+i want to understand my payment options	i want to know my payment options	y
+whats the delay with my claim	you are working too slow on my claim	y
+i want to pay you	i want to pay you now please	y
+I am jorge and I want to pay an invoice	I want to pay an invoice	y
+Trying to make a payment	make a payment	y
+#######################################################################################################################
+# Pizza
+#######################################################################################################################
+i want to pay you	i want to pay you now	y
+wanna order a pizza	i want to order a pizza	y
+wanna order a pizza	want to order a pizza	y
+wanna pay the invoice	pay it	y
+I want to order a pizza	I want to eat a pizza	y
+I want to order a pizza for delivery	I want to eat a pizza	y
+I want to order a pizza	I am trying to buy a pizza	y
+I am hungry	I am super hungry tonight	y
+My pizza is getting cold	The pizza got cold	y
+#######################################################################################################################
+# IT Support
+#######################################################################################################################
+i want to install a software	i need to install a software	y	5.0
+can you help me install a software	can you help me install software	y	5.0
+i don't want to install a software	i want to install a software	n	1.9
+i am trying to install a software	I am trying to install it	y	5.0
+i want to un-install a software	i want to uninstall a software	y	4.8
+i wont to un-install a software	i want to un-install a software	y	5.0
+i want to uninstall it	i want to un-install it	y	5.0
+i want to uninstall it	i don't want to uninstall it	n   1.0
+trying to install a software	I am trying to install it	y	5.0
+want to un-install a software	i want to uninstall a software	y	4.0
+wanna to un-install a software	i want to un-install a software	y	5.0
+to uninstall it	i want to un-install it	y	5.0
+i need to uninstall it	i don't want to uninstall it	n	5.0
+my computer is locked	my pc is locked	y	5.0
+my computer is locked	my pc is blocked	y	5.0
+my computer looks locked	my mac is locked	y	5.0
+my computer is locked	my pc is not locked	n	1.0
+my computer is locked	my pc isn't blocked	n	1.0
+my computer looks locked	my mac is not really locked	n	1.5
+my computer is blocked	my mac is locked	y	5.0
+i need to unlock my computer	my computer is locked	y	5.0
+can you help me unlock it please	i need to unlock my computer	y	4.5
+i want to unlock my pc	can you help me with the pc unlocking	y	4.5
+need to unlock my account	need to reset my password	y	4.0
+can you pls help me unlock my account	need to reset my password	y	4.0
+can you pls help me unlock my account	need to reset my account	y	5.0
+can you me unlock my account	need to reset my password	y	3.9
+can you me unlock my password	need to reset my password	y	5.0
+can you me unlock my accnt	need to reset my account	y	5.0
+can you me unlock my accnt	need to reset my account	y	5.0
+want to unlock my accnt please	need to unlock my account	y	5.0
+want to unlock my account please	need to unlock my account	y	5.0
+can you me unlock my account	i don't want need to reset my password	n	1.9
+can you me unlock my password	do not need to reset my password	n	1.9
+can you me unlock my accnt	i dont need to reset my account	n	1.
+can you me unlock my accnt	don't wanna reset my account	n
+want to unlock my accnt	need to unlock my account	y
+need to unlock my account	i want to unlock my account	y
+need access to a dl	i want to access a distribution list	y
+need access to a distribution list	i do not need access to a dl	n
+need access to a dl	i do not need access to a dl	n
+need access to a ml	i want to access a distribution list	y
+need access to a ml	i want to access a mailing list	y
+want access to a mailing list	i want to access a mail list	y
+need access to a mailing list	i do not need access to a dl	n
+need access to a ml	i do not need access to a dl	n
+#######################################################################################################################
+# Insurance
+#######################################################################################################################
+is my policy active?	did my policy start yet?	y
+i got a technical issues popup.	i can't add four drivers. the system keeps spitting out an error. am i unable to do this?	y	4.0
+Can you change the date for me please	I want to adjust the start date for an insurance quote I did.	y
+My checking account account is on hold how do I reinstate my policy	can i reinstate?	y	3.7
+Hi, I need to add a vehicle to my policy but the online interface isn't letting me, can you help?	I ca n't add a driver.	y	2.5
+What the heck is a safety glass deductible?	what does this policy do regarding safety glass deductibles?	y	5.0
+What kind of discounts do I get for bundling insurance? Do you guys even offer renters insurance?	Am I able to bundle different policy?	y	3.9
+is my policy in effect?	How do I find out if I have insurance.	y	4.0
+Hi, my vehicle loan was paid off.  Could you please remove the lienholder?	My car is payed for I need the lien holder removed can you help?	y	5.0
