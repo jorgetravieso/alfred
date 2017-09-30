@@ -7,7 +7,11 @@ __pycache__
 
 tmp
 data/private
-data/glove
+data/embeddings
+venv
+results
+*.pu
+glove*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

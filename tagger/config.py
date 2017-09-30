@@ -1,0 +1,30 @@
+class config():
+    base_path = "../data/private/tagger/ner/"
+    dim = 300
+    dim_char = 100
+    glove_filename = "../data/embeddings/glove.6B/glove.6B.{}d.txt".format(dim)
+    trimmed_filename = "{}glove.6B.{}d.trimmed.npz".format(base_path, dim)
+    words_filename = "{}words.txt".format(base_path)
+    tags_filename = "{}tags.txt".format(base_path)
+    chars_filename = "{}chars.txt".format(base_path)
+    dev_filename = "{}ner.dev".format(base_path)
+    test_filename = "{}ner.test".format(base_path)
+    train_filename = "{}ner.train".format(base_path)
+    max_iter = None
+    lowercase = True # Todo need to work on the script
+    train_embeddings = False
+    nepochs = 20
+    data_size = 48797  # Todo this should be more dynamic
+    dropout = 0.5
+    batch_size = 20
+    lr = 0.001
+    lr_decay = 0.9
+    nepoch_no_imprv = 3
+
+    hidden_size = 300
+    char_hidden_size = 100
+    crf = True  # if crf, training is 1.7x slower
+    chars = True  # if char embedding, training is 3.5x slower
+    output_path = "results/crf/"
+    model_output = output_path + "model.weights/"
+    log_path = output_path + "log.txt"
